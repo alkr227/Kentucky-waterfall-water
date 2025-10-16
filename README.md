@@ -22,7 +22,7 @@ If you are interested in [other Markdown formatting options](https://www.markdow
 
 ### Purpose
 
-The purpose of the creation of this map was to see the natural water resource layout in Kentucky. The author of the map has a particular interest in seeing either rivers, streams, lakes, and especially watewrfalls when going on hikes. Seeing where these water resources are laid out could help other interested hikers in locating these sights of nature when choosing a trail. Additionally, for those who are interested in kayaking or canoeing, this map can assist with which streams and rivers are a potential route for them to take. The particular purpose of this map was to map out the elevation around Creation Falls, a waterfall found in the Red River Gorge. All other waterfalls and springs have name labels on them as well, visible at a particular zoom level, but only Creation Falls has the contour layer, mapping the elevation around it. 
+The purpose of the creation of this map was to see the natural water resource layout in Kentucky. Also, the location of waterfalls and springs was of interest to the author, specifically how they are distributed within the state. The author of the map has a particular interest in seeing either rivers, streams, lakes, and especially waterfalls when going on hikes. Seeing where these water resources are laid out could help other interested hikers in locating these sights of nature when choosing a trail. Additionally, for those who are interested in kayaking or canoeing, this map can assist with which streams and rivers are a potential route for them to take. The particular purpose of this map was to map out the elevation around Creation Falls, a waterfall found in the Red River Gorge. All other waterfalls and springs have name labels on them as well, visible at a particular zoom level, but only Creation Falls has the contour layer, mapping the elevation around it. 
 
 The reason this map was created in QGIS instead of Mapbox was because the author wanted to see how much QGIS could do. The author had recently completed a map of an arch, Angel Windows, in Mapbox which provided great detail and a more "real" look to it. Mapbox also provides better symbols for points, which would have been great to have in QGIS to symbolize waterfalls, but the QGIS map still provides an accurate representation of water resources in Kentucky. 
 
@@ -40,7 +40,7 @@ Example of in process map ![in process image](filepath)
 8. Exported and saved each layer as a Geopackage in EPSG 3089 and added to the map.
 9. Changed the layer's properties to make the symbols as appropriate as possible to what they are representing. Added name labels to the spring and waterfall points at a scale dependent visibility to the labels at 1:20000.
 10. Added scale dependent visability to the streams. These steps were taken as to not overwhelm the map when zoomed out, but also to allow for a dimensional aspect because streams are small, and wouldn't be seen when zoomed out.
-11. Downloaded the contour elevation data from USGS, specifically filtered to the coordinates of Creation Falls: Latitude, 37.769452 ; Longitude, -83.561758. Download it in TIFF file format.
+11. Downloaded the contour elevation data from USGS, specifically filtered to the coordinates of Creation Falls: Latitude, 37.769452 ; Longitude, -83.561758. Downloaded the Elevation Products (3D Elevation Program Products and Services) data in TIFF file format.
 12. Added the raster layer in EPSG: 4269, clipped the extent to focus on and around Creation Falls. Removed the original layer and kept the clipped one. Additionally, used the Raster Calculator to convert the elevation units from meters to feet. Used the equation "Clipped (extent)@1"  *  3.281. 
 13. Next I extracted the contours by going to Raster - Extraction - Contours. Set the interval between contour lines to 20 ft. 
 14. Opened the attribute table on extracted contour lines and opened the field calculator. Added a new attribute to the table by identifying if a particlular value in that table is considered an index value. Used this equation  if(  "ELEV" % 100 = 0, 1, 0). This produced a new column that tells us if the value of a particular elevation is divisible by 100 with or without a remainder. This is noted in the legend of the map.
@@ -49,16 +49,15 @@ Example of in process map ![in process image](filepath)
 17. Created a map layout with zoomed out and zoomed in version. Added legend, metadata, title, north arrow, and scale. Exported at 2 resolutions: Web version: 1200 px width and High-resolution: 8000 px width. 
 18. Edit index.html file to include map information and linked it into the READ.me file.  
 
-1. **Example bold**
-2. *Example italics*
-3. 
-4. 
+
 
 ### Map summary
 
-Example of in process map ![in process image](filepath)
+Here is the low resolution map that features the zoomed out and zoomed in versions![Waterfalls Map](Waterfalls-KY-lowresolution.png)
 
 What are the key findings to take from your map and the overall mapmaking process?
+
+What I found is that Kentucky has a very intricate system of streams, rivers, and other bodies of water. The placement of waterfalls and springs is mostly along streams, with some being on rivers. 
 
 ## Final Project Link
 
