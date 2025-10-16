@@ -28,7 +28,6 @@ The reason this map was created in QGIS instead of Mapbox was because the author
 
 ### Mapmaking Process & Methods:
 
-Example of in process map ![in process image](filepath)
 
 1. Downloaded census vector data for U.S states and added the layer to QGIS,
 2. Filtered layer to Kentucky only, and export the layer in GeoJSON, EPSG 4326.
@@ -63,4 +62,5 @@ What I found is that Kentucky has a very intricate system of streams, rivers, an
 
 Here you are linking from the README.md to the index.html.
 
-Please view the [final map online](http://127.0.0.1:5500/index.html)
+Please view the [final map online](<a href="Waterfalls-KY-highresolution.png" target="_blank">Download a full-screen version</a>)
+
