@@ -58,10 +58,6 @@ What I found is that Kentucky has a very intricate system of streams, rivers, an
 
 ## Final Project Link
 
-Here you are linking from the README.md to the index.html.
-
-try out link here
-
 You can download a higher resolution of the map by clicking the download link. (<a href="Waterfalls-KY-highresolution.png" target="_blank">Download a full-screen version</a>)
 
 <a href="https://alkr227.github.io/Kentucky-waterfall-water" target="_blank">View Final Project Here</a>
