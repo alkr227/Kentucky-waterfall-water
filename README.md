@@ -64,6 +64,6 @@ try out link here
 
 Please view the [final map online](<a href="Waterfalls-KY-highresolution.png" target="_blank">Download a full-screen version</a>)
 
-<a href="index.html" target="_blank">Download a full-screen version</a>
+<a href="https://alkr227.github.io/Kentucky-waterfall-water" target="_blank">View Final Project Here</a>
 
 
