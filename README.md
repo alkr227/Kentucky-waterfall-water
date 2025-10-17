@@ -50,7 +50,7 @@ The reason this map was created in QGIS instead of Mapbox was because the author
 
 ### Map summary
 
-Here is the low resolution map that features the zoomed out and zoomed in versions![Waterfalls Map](Waterfalls-KY-lowresolution.png)
+Here is a low resolution version of the map that features the zoomed out and zoomed in snapshots of Kentucky water resources. ![Waterfalls Map](Waterfalls-KY-lowresolution.png)
 
 What are the key findings to take from your map and the overall mapmaking process? add overview here
 
@@ -62,7 +62,7 @@ Here you are linking from the README.md to the index.html.
 
 try out link here
 
-Please view the [final map online](<a href="Waterfalls-KY-highresolution.png" target="_blank">Download a full-screen version</a>)
+You can download a higher resolution of the map by clicking the download link. (<a href="Waterfalls-KY-highresolution.png" target="_blank">Download a full-screen version</a>)
 
 <a href="https://alkr227.github.io/Kentucky-waterfall-water" target="_blank">View Final Project Here</a>
 
