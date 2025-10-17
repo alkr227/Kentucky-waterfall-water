@@ -9,7 +9,7 @@ This project was authored by Anastasia Kreyling for the MAP 671 class at the Uni
 
 ### Data Sources:
 
-cb_2022_us_state_500k.shp layer downloaded from here [Link to data source: Cenus.gov](https://www.census.gov/cgi-bin/geo/shapefiles/index.php)   
+cb_2022_us_state_500k.shp shapefile downloaded from the U.S. Census Bureau TIGER Products [Link to data source: Cenus.gov](https://www.census.gov/cgi-bin/geo/shapefiles/index.php)   
 
 
 GeoTIFF file of elevation contours near and around Creation Falls [Link to USGS Elevation Data](https://apps.nationalmap.gov/downloader/)
@@ -18,11 +18,8 @@ GeoTIFF file of elevation contours near and around Creation Falls [Link to USGS 
 * Initial data projection: EPSG: 4326
 * Final Map projection: EPSG: 3089, some layers may differ in their projection due to the file format.
 
-### Project Background
 
-Add something here
-
-### Purpose:
+### Project Background & Purpose:
 
 The purpose of this map was to see the natural water resource and feature layout in Kentucky. Also, the location of waterfalls and springs was of interest to the author, specifically how they are distributed within the state. The author of the map has a particular interest in seeing either rivers, streams, lakes, and especially waterfalls when going on hikes. Seeing where these water resources are laid out could help other interested hikers in locating these sights of nature when choosing a trail. Additionally, for those who are interested in kayaking or canoeing, this map can assist with which streams and rivers are a potential route for them to take. The particular purpose of this map was to map out the elevation around Creation Falls, a waterfall found in the Red River Gorge. From the author's experience, the hike to Creation Falls is fairly easy, however, there are some hills along the route. Seeing and interpreting the Attribute Table of the elevation contour levels around Creation Falls can help others to prepare if they wish to slightly veer off course. All other waterfalls and springs featured ont he map have name labels on them as well, visible at a particular zoom level, but only Creation Falls has the contour layer, mapping the elevation around it. 
 
