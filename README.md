@@ -34,7 +34,7 @@ The reason this map was created in QGIS instead of Mapbox was because the author
 5. Entered the key and value to find and explore various natural features to add to the map. 
 6. Added waterfalls, streams, natural water, natural spring, and river. Chose the appropriate vector layer format to download (ex. points, polygons, etc.)
 7. Dropped the unnecessary fields in each layer, about the first 12 from each, unless some of the layers didn't have that many to start with. This was done through the drop fields function found in the Processing Toolbox.
-8. Exported and saved each layer as a Geopackage in EPSG 3089 and added to the map.
+8. Exported and saved each layer as a Geopackage in EPSG 3089 and added to the map. Some of these layers were saved in the repository and others were saved in an external data folder in order to not exceed storage space.
 9. Changed the layer's properties to make the symbols as appropriate as possible to what they are representing. Added name labels to the spring and waterfall points at a scale dependent visibility to the labels at 1:20000.
 10. Added scale dependent visability to the streams. These steps were taken as to not overwhelm the map when zoomed out, but also to allow for a dimensional aspect because streams are small, and wouldn't be seen when zoomed out.
 11. Downloaded the contour elevation data from USGS, specifically filtered to the coordinates of Creation Falls: Latitude, 37.769452 ; Longitude, -83.561758. Downloaded the Elevation Products (3D Elevation Program Products and Services) data in TIFF file format.
