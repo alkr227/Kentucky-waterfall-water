@@ -18,7 +18,7 @@ Map was created on QGIS version 3.40.10. Additional software used includes Visua
 
 ### Project Background
 
-If you are interested in [other Markdown formatting options](https://www.markdownguide.org/basic-syntax/)
+Add something here
 
 ### Purpose
 
@@ -27,7 +27,6 @@ The purpose of the creation of this map was to see the natural water resource la
 The reason this map was created in QGIS instead of Mapbox was because the author wanted to see how much QGIS could do. The author had recently completed a map of an arch, Angel Windows, in Mapbox which provided great detail and a more "real" look to it. Mapbox also provides better symbols for points, which would have been great to have in QGIS to symbolize waterfalls, but the QGIS map still provides an accurate representation of water resources in Kentucky. 
 
 ### Mapmaking Process & Methods:
-
 
 1. Downloaded census vector data for U.S states and added the layer to QGIS,
 2. Filtered layer to Kentucky only, and export the layer in GeoJSON, EPSG 4326.
@@ -49,18 +48,19 @@ The reason this map was created in QGIS instead of Mapbox was because the author
 18. Edit index.html file to include map information and linked it into the READ.me file.  
 
 
-
 ### Map summary
 
 Here is the low resolution map that features the zoomed out and zoomed in versions![Waterfalls Map](Waterfalls-KY-lowresolution.png)
 
-What are the key findings to take from your map and the overall mapmaking process?
+What are the key findings to take from your map and the overall mapmaking process? add overview here
 
 What I found is that Kentucky has a very intricate system of streams, rivers, and other bodies of water. The placement of waterfalls and springs is mostly along streams, with some being on rivers. 
 
 ## Final Project Link
 
 Here you are linking from the README.md to the index.html.
+
+try out link here
 
 Please view the [final map online](<a href="Waterfalls-KY-highresolution.png" target="_blank">Download a full-screen version</a>)
 
