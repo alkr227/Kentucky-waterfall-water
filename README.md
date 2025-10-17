@@ -44,7 +44,7 @@ The reason this map was created in QGIS instead of Mapbox was because the author
 15. Exported the contour layer in Shapefile format at EPSG: 4326. This was saved in an external data folder due to the size of the shapefiles.
 16. Made the contour lines at a scale dependent visability, and changed the style on them as well to categorized in order to distinguish between the two index values.
 17. Created a map layout with zoomed out and zoomed in version. Added legend, metadata, title, north arrow, and scale. Exported at 2 resolutions: Web version: 1200 px width and High-resolution: 8000 px width. 
-18. Edited the index.html file to include map information and linked it into the READme file.  
+18. Edited the index.html file to include map information and linked it into the README file.  
 
 
 ### Map Summary & Map Image:
