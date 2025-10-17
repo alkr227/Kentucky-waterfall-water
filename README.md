@@ -1,7 +1,7 @@
 
 # Water Resources in Kentucky: A Focus on Creation Falls
 
-The map created int his project features waterfalls, streams, springs, rivers, bodies of water, and the elevation contours of Creation Falls, located in the state of Kentucky. QuickOSM data, Elevation data from USGS, and downloaded data from the United States government was used.
+The map created in this project features waterfalls, streams, springs, rivers, bodies of water, and the elevation contours of Creation Falls, located in the state of Kentucky. QuickOSM data, Elevation data from USGS, and downloaded data from the United States government was used.
 
 Map was created on QGIS version 3.40.10. Layers were added using QuickOSM query in QGIS and additional layers were downloaded from the data sources below. Additional software used includes Visual Studio Code and GitHub. 
 
